@@ -28,4 +28,9 @@ _ReSharper*/
 *.vssscc
 $tf*/
 
+# SQL Server files
+*.mdf
+*.ldf
+
 packages/
+src/TestResults/

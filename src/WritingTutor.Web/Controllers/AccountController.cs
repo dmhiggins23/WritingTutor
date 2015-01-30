@@ -9,6 +9,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WritingTutor.Web.Models;
+using WritingTutor.Web.Domain;
+using WritingTutor.Web.Data;
 
 namespace WritingTutor.Web.Controllers
 {

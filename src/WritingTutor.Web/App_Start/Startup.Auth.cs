@@ -5,7 +5,8 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using WritingTutor.Web.Models;
+using WritingTutor.Web.Domain;
+using WritingTutor.Web.Data;
 
 namespace WritingTutor.Web
 {
