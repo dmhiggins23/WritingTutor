@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingTutor.Web", "WritingTutor.Web\WritingTutor.Web.csproj", "{CB146A27-65EC-443A-ACB1-43AE1BDE2990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingTutor.Web.Tests", "WritingTutor.Tests\WritingTutor.Web.Tests.csproj", "{F6B3B04C-BD5E-4180-82B7-AA6C5EC1A270}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingTutor.Tests", "WritingTutor.Tests\WritingTutor.Tests.csproj", "{F6B3B04C-BD5E-4180-82B7-AA6C5EC1A270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

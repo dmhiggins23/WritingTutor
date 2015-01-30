@@ -39,27 +39,8 @@ namespace WritingTutor.Tests.BrowserFramework
             return this;
         }
 
-        //public void Login() {
-        //    var loginInput = Driver.Instance.FindElement(By.Id("Email"));
-        //    loginInput.SendKeys(_username);
-
-        //    var passwordInput = Driver.Instance.FindElement(By.Id("Password"));
-        //    passwordInput.SendKeys(_password);
-
-        //    var loginButton = Driver.Instance.FindElement(By.CssSelector("input[type='submit']"));
-        //    loginButton.Click();
-        //}
 
         public void Login() {
-            //var loginInput = Driver.Instance.FindElement(By.Id("Email"));
-            //loginInput.SendKeys(_email);
-
-            //var passwordInput = Driver.Instance.FindElement(By.Id("Password"));
-            //passwordInput.SendKeys(_password);
-
-            //var loginButton = Driver.Instance.FindElement(By.CssSelector("input[type='submit']"));
-            //loginButton.Click();
-
             var form = new HtmlForm<LoginViewModel>();
             form.WithValue(o => o.Email, _email)
                 .WithValue(o => o.Password, _password)
